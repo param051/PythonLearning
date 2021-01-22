@@ -7,7 +7,7 @@ def test_method_executor():
     get_student_data()
 
 
-@pytest.mark.smoke
+@pytest.mark.sanity
 def test_studentData_executor():
     get_student_data()
 
